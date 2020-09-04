@@ -1,7 +1,6 @@
 
 # 教學使用方法
 主要是使用google dirve，在google colab中使用aira2 下載檔案完成後自動上傳到drive team (團隊盤)
-
 * 只有小修改從drive雲端硬碟讀取配置檔案
 * Rclone配置，看看這篇文章 https://p3terx.com/archives/rclone-installation-and-configuration-tutorial.html
 * 配置文件
@@ -24,6 +23,18 @@
     - **rclone.conf**
         * 查看配置指令`rclone config show`，並複製貼上到`rclone.conf`
 
+* 注意：如果關閉colab頁面，colab 12小時後會自動關閉，12小時也足夠下載檔案及上傳檔案
+* colab延長使用，開啟 Developer 按下`F12`或 `Ctrl` + `shift` + `I`，選擇`Console`並輸入以下javascript，會自動去點擊 `#connect`
+
+    ```javascript
+        function ConnectButton(){
+        console.log("Connect pushed"); 
+        document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click() 
+    }
+    setInterval(ConnectButton,60000);
+    ```
+    如果這個點擊沒有效果，請看這篇找你要的方法 [how-to-prevent-google-colab-from-disconnecting](https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting)
+    
 ## 從自己的drive雲端硬碟讀取配置檔案
 
 此部分說明一下讀取方法，在colab掛載drive，從個人drive讀取aria2_colab_config資料夾內的文件，配置檔設定好後請手動上傳aria2_colab_config資料夾，如圖
