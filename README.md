@@ -19,7 +19,7 @@
             # 网盘名称(RCLONE 配置时填写的 name)
                 drive-name=gd
             # 网盘目录(上传目标目录，网盘中的文件夹路径)。注释或留空为网盘根目录，末尾不要有斜杠。
-                drive-dir=/my_colab_Download/
+                drive-dir=/my_colab_Download/Download/
             ```
     - **rclone.conf**
         * 查看配置指令`rclone config show`，並複製貼上到`rclone.conf`
