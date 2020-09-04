@@ -80,16 +80,15 @@ colab修改檔案內容，點檔按兩下會在右邊開啟，colab會自動儲�
 
 # 使用方法
 
-1、下載筆記本到本地，上傳到Colab，參照源作者的一鍵腳本教程配置以下文件：
+1. 下載筆記本到本地，上傳到Colab，參照源作者的一鍵腳本教程配置以下文件：
 
-Rclone Config：https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html
+    * Rclone Config：https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html
 
-Aria2 Config和Script Config：https://p3terx.com/archives/aria2-oneclick-installation-management-script.html
+    * Aria2 Config和Script Config：https://p3terx.com/archives/aria2-oneclick-installation-management-script.html
 
-2、配置完成並上傳到可直鏈下載的位置後（可以直接用GoIndex等目錄直鏈永久使用）輸入到筆記本對應位置，一鍵執行即可！
+2. 配置完成並上傳到可直鏈下載的位置後（可以直接用GoIndex等目錄直鏈永久使用）輸入到筆記本對應位置，一鍵執行即可！
 
-PS：內網穿透建議選擇ngrok。免費token可能不穩定，建議免費註冊使用自己的token。token獲取地址：https://dashboard.ngrok.com/auth
+    PS：內網穿透建議選擇ngrok。免費token可能不穩定，建議免費註冊使用自己的token。token獲取地址：https://dashboard.ngrok.com/auth
 
 3. 美化版主題 goindex
-
-    [github.com/Aicirou/goindex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou)
+    * [github.com/Aicirou/goindex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou)
