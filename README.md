@@ -7,8 +7,8 @@
 * 配置文件
     - **aria2.conf**
         * 下載完成後自動上傳到team dirve 團隊盤
-            自動上傳改成 `upload.sh`
-            不自動上傳改成 `clean.sh`
+            - 自動上傳改成 `/root/.aria2c/upload.sh`
+            - 不自動上傳改成 `/root/.aria2c/clean.sh`
             ```bash       
             # 此项未定义则执行 下载停止后执行的命令 (on-download-stop)
             on-download-complete=/root/.aria2c/upload.sh
