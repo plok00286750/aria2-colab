@@ -33,6 +33,15 @@
     }
     setInterval(ConnectButton,60000);
     ```
+    
+    ```javascript
+        function ConnectButton(){
+        console.log("Connect pushed"); 
+        document.querySelector("#ok").click() 
+    }
+    setInterval(ConnectButton,60000);
+    ```
+
     如果這個點擊沒有效果，請看這篇找你要的方法 [how-to-prevent-google-colab-from-disconnecting](https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting)
 
 ## 從自己的drive雲端硬碟讀取配置檔案
