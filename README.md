@@ -34,7 +34,7 @@
     setInterval(ConnectButton,60000);
     ```
     如果這個點擊沒有效果，請看這篇找你要的方法 [how-to-prevent-google-colab-from-disconnecting](https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting)
-    
+
 ## 從自己的drive雲端硬碟讀取配置檔案
 
 此部分說明一下讀取方法，在colab掛載drive，從個人drive讀取aria2_colab_config資料夾內的文件，配置檔設定好後請手動上傳aria2_colab_config資料夾，如圖
@@ -72,7 +72,7 @@ colab修改檔案內容，點檔按兩下會在右邊開啟，colab會自動儲�
 
     * OneClickRun：https://github.com/biplobsd/OneClickRun
 
-    * aria2_colabhttps://github.com/kobojp/aria2-colab
+    * aria2_colab：https://github.com/hmglife/aria2-colab
 
 # 主要功能
 
